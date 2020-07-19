@@ -3,9 +3,9 @@ html, body {
 }
 
 body {
-    padding-top: 55px;
-    display: flex;
+    padding-top: 50px;
     text-align: center;
+    display: flex;
     flex-direction: column;
 }
 
@@ -24,18 +24,16 @@ main {
 
 /*home page*/
 
-.intro {
-    transform: translateY(22vh);
-}
-
 .intro > h1 {
     color: #212121;
-    font-size: 12vh;
+    font-size: 10vh;
+    font-weight:600;
 }
 
 .intro > h2 {
     color: #757575;
-    font-size: 3vmin;
+    font-size: 3vh;
+    font-weight:400;
 }
 
 .intro > .profile {
@@ -44,55 +42,15 @@ main {
     border-radius: 50%;
 }
 
-/*apply accent colour to links*/
-
 a:link, a:visited {
-    color: var(--accent);
+    color: rgba(119,51,118,1);
 }
 
-a.icon:hover {
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--accent) !important;
-}
-
-/*paginator at bottom of list view*/
-
-.pages {
-    padding: 15px 0;
-}
-
-.pages-icon {
-    padding: 0 15px;
-}
-
-/*list item for posts and projects*/
-
-.item {
-    padding: 10px 0;
-}
-
-.item-tag {
-    background-color: var(--accent);
-}
-
-/*navigation bar icons*/
-
-.navbar-icon {
-    font-size: 125%;
-    display: inline-block !important;
-}
-
-/*coloured borders at top and bottom of the page*/
-
-.navbar.navbar-default {
-    border-top: var(--border-width) solid var(--accent);
-}
 
 footer {
-    border-bottom: var(--border-width) solid var(--accent);
+  color: #212121;
+  font-size: 2vh;
+  font-weight:300;
 }
 
 img {
