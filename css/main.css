@@ -1,8 +1,10 @@
-html, body {
+html, body{
+    margin: 0px;
     height: 100%;
 }
 
 body {
+    margin: 0px;
     padding-top: 50px;
     text-align: center;
     display: flex;
@@ -10,36 +12,38 @@ body {
 }
 
 main {
-    margin: auto;
-    padding: 25px;
+    margin: 0px;
+    padding: 0px;
     flex: 1 0 auto;
-    max-width: 750px;
-}
-
-/*footer*/
-
-.copyright {
-    margin: 15px 0;
 }
 
 /*home page*/
 
-.intro > h1 {
+.opabox > h1 {
     color: #212121;
     font-size: 10vh;
-    font-weight:600;
+    font-weight: 600;
 }
 
-.intro > h2 {
+.opabox  > h2 {
     color: #757575;
     font-size: 3vh;
     font-weight:400;
 }
 
-.intro > .profile {
-    width: 10vh;
-    height: 10vh;
-    border-radius: 50%;
+.intro {
+    background-image: url("../images/martalu.jpg");
+    padding: 0px;
+}
+
+.opabox {
+    background-color: #FFFFFF;
+    padding: 25px;
+    transition: 2s ease;
+}
+
+.opabox:hover {
+    opacity: 0;
 }
 
 a:link, a:visited {
@@ -51,6 +55,7 @@ footer {
   color: #212121;
   font-size: 2vh;
   font-weight:300;
+  padding: 5px;
 }
 
 img {
