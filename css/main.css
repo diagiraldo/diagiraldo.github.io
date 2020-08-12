@@ -33,6 +33,7 @@ main {
 
 .intro {
     background-image: url("../images/martalu.jpg");
+    background-size: 100%;
     padding: 0px;
 }
 
