@@ -17,6 +17,16 @@ main {
     flex: 1 0 auto;
 }
 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
 /*home page*/
 
 .opabox > h1 {
@@ -65,7 +75,7 @@ img {
 }
 
 .section-padding {
-    padding: 60px 0;
+    padding: 40px 10px;
 }
 
 .list-of-links {
@@ -88,7 +98,7 @@ img {
   }
   
   .btn i {
-    margin-right: 5px;
+    margin-right: 0px;
   }
   
   
@@ -104,3 +114,9 @@ img {
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
   }
+
+  .sm-icon {
+    font-size: 300%;
+    display: inline-block !important;
+    padding: 1px 5px;
+}
