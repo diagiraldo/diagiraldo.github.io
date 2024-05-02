@@ -5,7 +5,7 @@ html, body{
 
 body {
     margin: 0px;
-    padding-top: 50px;
+    padding-top: 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -118,4 +118,31 @@ img {
     font-size: 300%;
     display: inline-block !important;
     padding: 1px 5px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: rgba(119,51,118,1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgba(119,51,118,0.2);
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgba(119,51,118,1);
+    color: white;
 }
