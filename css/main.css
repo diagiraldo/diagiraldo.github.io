@@ -15,7 +15,6 @@ body {
 main {
     margin: 0px;
     padding: 0px;
-    display: flex;
     flex: 1 0 auto;
 }
 
@@ -149,11 +148,6 @@ img {
 }
 
 /*Publications*/
-
-.list-of-publications {
-    display: flex;
-    padding: 0px;
-}
 
 .list-per-year h2 {
     color: rgba(119,51,118,1);
