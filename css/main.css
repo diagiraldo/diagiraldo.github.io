@@ -15,6 +15,7 @@ body {
 main {
     margin: 0px;
     padding: 0px;
+    display: flex;
     flex: 1 0 auto;
 }
 
@@ -124,7 +125,6 @@ img {
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #FFFFFF;
-    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -146,4 +146,65 @@ img {
 .topnav a.active {
     background-color: rgba(119,51,118,1);
     color: white;
+}
+
+/*Publications*/
+
+.list-of-publications {
+    display: flex;
+    padding: 0px;
+}
+
+.list-per-year h2 {
+    color: rgba(119,51,118,1);
+    text-align: left;
+    padding: 16px 16px;
+    margin: 0px 0px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.publication-item {
+    padding: 8px 0px;
+    margin: 0px 0px;
+    text-align: left;
+    color: rgba(80,80,80,1);
+}
+
+.publication-item p {
+    padding: 2px 32px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0px 4px;
+}
+
+.publication-title p {
+    font-weight: 400;
+}
+
+.publication-authors p {
+    font-weight: 300;
+    padding: 2px 36px;
+    font-size: 0.9rem;
+}
+
+.publication-lugar p {
+    font-weight: 300;
+    padding: 2px 36px;
+    font-size: 0.9rem;
+}
+
+.publication-extras ul {
+    font-weight: 300;
+    padding: 2px 20px;
+    font-size: 1rem;
+    margin: 0px 6px;
+    list-style-type:none;
+}
+
+.publication-extras ul>li {
+    display: inline-block;
+    padding: 4px 10px;
 }
