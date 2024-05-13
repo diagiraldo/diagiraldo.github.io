@@ -197,13 +197,13 @@ img {
 
 .publication-extras ul {
     font-weight: 300;
-    padding: 2px 20px;
-    font-size: 1rem;
+    padding: 2px 28px;
+    font-size: 0.9rem;
     margin: 0px 6px;
     list-style-type:none;
 }
 
 .publication-extras ul>li {
     display: inline-block;
-    padding: 4px 10px;
+    padding: 2px 8px;
 }
