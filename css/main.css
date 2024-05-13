@@ -179,9 +179,14 @@ img {
 }
 
 .publication-authors p {
-    font-weight: 300;
+    font-weight: 200;
     padding: 2px 36px;
     font-size: 0.9rem;
+}
+
+.publication-authors .me {
+    color: rgb(73, 37, 73);
+    font-weight: 300;
 }
 
 .publication-lugar p {
