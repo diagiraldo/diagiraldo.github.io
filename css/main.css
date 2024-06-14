@@ -207,3 +207,29 @@ img {
     display: inline-block;
     padding: 2px 8px;
 }
+
+.news-item {
+    padding: 8px 0px;
+    margin: 0px 0px;
+    text-align: left;
+    color: rgba(80,80,80,1);
+}
+
+.news-item p {
+    padding: 2px 32px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0px 4px;
+}
+
+.news-date p {
+    color: rgb(73, 37, 73);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.news-description p {
+    font-weight: 300;
+    padding: 2px 36px;
+}
