@@ -30,7 +30,7 @@ ul {
 /*home page*/
 
 .opabox > h1 {
-    color: #212121;
+    color: rgba(80,80,80,1);
     font-size: 4rem;
     font-weight: 600;
 }
@@ -42,7 +42,10 @@ ul {
 }
 
 .intro {
-    background-image: url("https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"); */
+    background-image: url("../images/foto_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: 100%;
     padding: 0px;
 }
@@ -75,7 +78,7 @@ img {
 }
 
 .section-padding {
-    padding: 40px 10px;
+    padding: 15px 10px;
 }
 
 .list-of-links {
@@ -119,6 +122,16 @@ img {
     font-size: 300%;
     display: inline-block !important;
     padding: 1px 5px;
+}
+
+.bio {
+    padding: 5px 30px;
+    text-align: left;
+    color: rgba(80,80,80,1);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0px 0px;
 }
 
 /* Add a black background color to the top navigation */
