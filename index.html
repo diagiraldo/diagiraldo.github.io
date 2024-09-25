@@ -9,12 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <link rel="stylesheet" href="css/main.css" >
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;600&display=swap" >
   <script src="https://kit.fontawesome.com/162f165c12.js" crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- <style>
     html{
@@ -26,12 +25,23 @@
 
 <body>
 
-  <div class="topnav" id="myTopnav">
+  <!-- <div class="topnav">
     <a class="active" href="#home">home</a>
     <a href="publications.html">publications</a>
     <a href="updates.html">updates</a>
     <a href="projects.html">projects</a>
-  </div>
+  </div> -->
+
+  <nav class="navbar navbar-expand-sm py-0 bg-white">
+    <div class="container-fluid px-0">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link px-3 active" href="#home">home</a>
+        <a class="nav-item nav-link px-3" href="publications.html">publications</a>
+        <a class="nav-item nav-link px-3" href="updates.html">updates</a>
+        <a class="nav-item nav-link px-3" href="projects.html">projects</a>
+      </div>
+    </div>
+  </nav>
 
   <main>
     <div class="container-fluid px-0">
@@ -76,10 +86,12 @@
   </main>
 
   <footer>
+    <div class="container-fluid px-0">
       <p class="copyright text-muted">Made by <a href = "https://github.com/diagiraldo/">me</a>
         <br>
-        &copy; 2023 Diana Giraldo
+        &copy; 2024 Diana Giraldo
       </p>
+    </div>
   </footer>
 
 </body>
